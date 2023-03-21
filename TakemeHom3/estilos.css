@@ -1,0 +1,181 @@
+a {
+  text-decoration: none;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.menu {
+  background: #fff;
+  padding: 9px 20px;
+}
+
+.menu .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ .logo {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 30px;
+  font-size: 25px;
+}
+
+.menu a {
+  color: #000;
+}
+
+/* SECTION 1 */
+
+.imagen {
+background: url(imagenes/logo.jpeg);
+text-align: center;
+height: 132vh;
+margin-top: -60px;
+background-size: cover;
+background-position: 57% 48%;
+}
+
+.imagen a{
+position: absolute;
+bottom:10%;
+right:50%;
+background-color:#268f00;
+color:black;
+text-transform:uppercase;
+padding:30px 30px;
+border-radius:50px;
+font-size: 35px;
+}
+
+/*SECTION 2*/
+
+#modelos{
+  background: #005140;
+  margin-top: 41px;
+  }
+
+#modelos .linea1 div  {
+  width: 30%;
+  display: inline-block;
+  list-style: none;
+  padding-right: 35px;
+}
+
+li {
+  list-style: none;
+}
+
+#modelos h2 {
+  font-size: 70px;
+  padding: 0px;
+  text-align: center;
+}
+
+#modelos .precio {
+  font-size: 30px;
+  color: grey;
+  text-align: center;
+}
+
+#modelos .modelo{
+  font-size: 50px;
+  color: green;
+  text-align: center;
+}
+
+#modelos .parrafo {
+  font-size: 30px;
+  text-align: center;
+}
+
+#modelos .linea2 div {
+    display: inline-flex;
+    padding-left: 45px;
+    width: 29%;
+    align-items: center;
+}
+
+#modelos .contenedor {
+  background: #fff;
+}
+
+/*CONTACTO*/
+
+#contacto {
+  background: url(imagenes/cyberpunk.jpg);
+   color: #fff;
+  text-align: center;
+  padding: 90px 0;
+}
+
+#contacto .contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+#contacto .centro {
+
+  padding: 50px 29px;
+}
+
+#contacto h3 {
+  font-size: 23px;
+  font-weight: 100;
+  margin: 0;
+}
+
+#contacto p {
+  margin-top: 20px;
+  font-size: 21px;
+}
+
+#contacto form {
+  margin-top: 25px;
+}
+
+input[type="text"] {
+  width: 70%;
+  border: 0;
+  background: #111111;
+  padding: 15px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+textarea[name="mensaje"] {
+  width: 883px;
+  height: 234px;
+  border: 0;
+  background: #111111;
+  color: white;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 20%;
+  margin: auto;
+  border: 0;
+  background: #005140;
+  color: #fff;
+  padding: 11px 0;
+  font-size: 16px;
+}
+
+::placeholder {
+  color: #005140;
+}
+
+::-ms-input-placeholder {
+  color: #005140;
+}
